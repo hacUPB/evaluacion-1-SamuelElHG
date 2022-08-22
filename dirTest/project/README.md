@@ -1,27 +1,14 @@
-
-In this directory, you should write the program `wcat.c` and compile it into
-the binary `wcat` (e.g., `gcc -o wcat wcat.c -Wall -Werror`).
-
-After doing so, you can run the tests from this directory by running the
-`test-wcat.sh` script. If all goes well, you will see:
-
-```sh
-prompt> ./test-wcat.sh
-test 1: passed
-test 2: passed
-test 3: passed
-test 4: passed
-test 5: passed
-test 6: passed
-test 7: passed
-prompt>
-```
-
-The `test-wcat.sh` script is just a wrapper for the `run-tests.sh` script in
-the `tester` directory of this repository. This program has a few options; see
-the relevant
-[README](https://github.com/remzi-arpacidusseau/ostep-projects/blob/master/tester/README.md)
-for details.
-
-
-
+<h1>EVALUACIÓN 1</h1>
+    Clonamos el repositorio de la red al local, realizamos los cambios en el archivo wcat.c
+    Damos los permisos necesarios a los archivos wcat.c, test-wcat.sh y run-test.sh
+    Enviamos los cambios al repositorio de la red
+    image.png
+    Enlace al repositorio en la red: https://github.com/hacUPB/evaluacion-1-SamuelElHG
+    Lista de comandos para el trabajo:
+    1. cd hasta llegar a la carpeta (directorio) deseada
+    2. gh auth login para acceder a la cuenta de github
+    3. git clone y pegar el enlace del repositorio en línea
+    4. code . o ./ para abrir los archivos a editar
+    5. git add . para adicionar todos los archivos cambiados al stage
+    6. git commit -m "" para realizar el commit y guardar los archivos en el git
+    7. git push para sincronizar los archivos con el repositorio en la red
